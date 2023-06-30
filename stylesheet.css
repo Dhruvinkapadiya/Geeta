@@ -20,7 +20,14 @@
   background-size: cover; 
   background-position: center;
 }
-
+.head-text{
+  padding-top: 25em;
+  color: #efefef;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 1.2em;
+  text-align: center; /* Adjust alignment as per your requirement */
+}
   .nav {
     height: 50px;
     width: 100%;
