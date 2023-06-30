@@ -27,7 +27,7 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: lighter;
   font-size: 1.2em;
-  text-align: center; 
+  text-align: center; /* Adjust alignment as per your requirement */
 }
 .nav {
   height: 50px;
