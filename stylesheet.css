@@ -6,7 +6,21 @@
     margin: 0px;
     font-family: 'segoe ui';
   }
-  
+
+.wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(bg-krishna.png);
+  filter: blur(2px);
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  background-repeat: none;
+  background-size: cover; 
+  background-position: center;
+}
+
   .nav {
     height: 50px;
     width: 100%;
