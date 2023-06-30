@@ -30,7 +30,7 @@
           </a>
           <ul class="sub-menu">
             <li>
-              <a href="file:///C:/Users/Dhruvin/Desktop/Bhagvat%20Geeta/Chapter%201.html" target="_blank">CHAPTER 1</a>
+              <a href="CHAPTER 1.html " target="_blank">CHAPTER 1</a>
             </li>
             <li>
               <a href="file:///C:/Users/Dhruvin/Desktop/Bhagvat%20Geeta/CHAPTER%202.html" class="chapter" target="_blank">CHAPTER 2</a>
