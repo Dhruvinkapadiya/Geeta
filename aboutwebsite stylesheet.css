@@ -1,0 +1,76 @@
+body {
+  transition: 1.5s;
+}
+
+.night-toggle {
+  width: 33px;
+  height: 33px;
+  right: 20px;
+  top: 20px;
+  position: absolute;
+}
+
+.night-toggle:hover {
+  cursor: pointer;
+}
+
+.moon {
+  background-color: transparent;
+  box-shadow: -6px 1px 0 3px #275e8e;
+  border-left: 3px solid #27476D;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-left: 8px;
+  margin-top: 0px;
+  transition: 2s;
+}
+
+.sun {
+  background-color: #fdd462;
+  box-shadow: 2px 0px 0px 1px #D19C29;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  transition: 2s;
+}
+
+/* ----- optional ----- */
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.opt {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: sans-serif;
+  margin-top: 5%;
+  text-align: center;
+  padding: 0 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  background: #dc3545;
+  padding: 7px 10px;
+  border-radius: 4px;
+  font-size: 19px;
+}
+
+a:hover {
+  background: rgb(220 53 69 / 85%);
+}
+
+a:focus {
+  outline: 3px solid rgb(220 53 69 / 50%);
+}
+
+.button {
+  text-align: center;
+  margin-top: 20px;
+}
