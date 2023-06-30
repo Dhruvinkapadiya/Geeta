@@ -5,6 +5,7 @@
 body {
   margin: 0px;
   font-family: 'segoe ui';
+  overflow: hidden;
 }
 
 .wrapper {
@@ -73,9 +74,7 @@ body {
 .button-27 {
   left: 35px;
   appearance: none;
-  background-color: #000000;
-  border: 2px solid #000000;
-  border-radius: 15px;
+  background-color: transparent;
   box-sizing: border-box;
   color: #FFFFFF;
   cursor: pointer;
@@ -95,9 +94,10 @@ body {
   -webkit-user-select: none;
   touch-action: manipulation;
   width: 180px;
-  margin-left:50px;
+  margin-left: 50px;
   will-change: transform;
 }
+
 
 .button-27:disabled {
   pointer-events: none;
