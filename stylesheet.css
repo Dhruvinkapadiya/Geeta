@@ -21,14 +21,16 @@ body {
   background-size: cover; 
   background-position: center;
 }
-.head-text{
+
+.header-container {
   padding-top: 25em;
-  color: #efefef;
+  color: #000000;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: lighter;
   font-size: 1.2em;
   text-align: center; /* Adjust alignment as per your requirement */
 }
+
 .nav {
   height: 50px;
   width: 100%;
@@ -55,6 +57,7 @@ body {
   display: inline;
   float: right;
   font-size: 18px;
+  z-index: 999;
 }
 
 .nav > .nav-links > a {
@@ -71,6 +74,7 @@ body {
 .nav > #nav-check {
   display: none;
 }
+
 .button-27 {
   left: 35px;
   appearance: none;
@@ -98,7 +102,6 @@ body {
   will-change: transform;
 }
 
-
 .button-27:disabled {
   pointer-events: none;
 }
@@ -112,8 +115,9 @@ body {
   box-shadow: none;
   transform: translateY(0);
 }
+
 @media (max-width: 600px) {
-  .head-text {
+  .header-container {
     font-size: 0.4cm; 
     padding-top: 30em;
   }
@@ -170,6 +174,8 @@ body {
   animation-duration: 2.5s;
   animation-delay: 0.5s;
   animation-fill-mode: forwards;
+  padding-top: 50vh;
+  color: #FFFFFF;
 }
 
 @keyframes fadeInDown {
