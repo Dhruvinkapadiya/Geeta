@@ -162,3 +162,23 @@ body {
     overflow-y: auto;
   }
 }
+
+.head-text {
+  opacity: 0;
+  transform: translateY(-50px);
+  animation-name: fadeInDown;
+  animation-duration: 2.5s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
