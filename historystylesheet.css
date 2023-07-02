@@ -1,76 +1,77 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-  }
-  
-  h1 {
-    color: #333;
-    text-align: center;
-  }
-  
-  p {
-    color: #666;
-    margin-bottom: 10px;
-  }
-a {
-  text-decoration: none;
-  color: white;
-  background: #dc3545;
-  padding: 1vw 2vw; /* Use viewport units for responsive padding */
-  border-radius: 4px;
-  font-size: 1.5vw; /* Use viewport units for responsive font size */
-}
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
 
-a:hover {
-  background: rgb(220 53 69 / 85%);
-}
+    h1 {
+      color: #333;
+      text-align: center;
+    }
 
-a:focus {
-  outline: 3px solid rgb(220 53 69 / 50%);
-}
+    p {
+      color: #666;
+      margin-bottom: 10px;
+    }
 
-.button {
-  margin-left: 40%;
-}
+    a {
+      text-decoration: none;
+      color: white;
+      background: #dc3545;
+      padding: 1vw 2vw; /* Use viewport units for responsive padding */
+      border-radius: 4px;
+      font-size: 1.5vw; /* Use viewport units for responsive font size */
+    }
 
-/* Media Queries for Responsive Design */
-@media screen and (max-width: 768px) {
-  /* Adjust styles for screens with a maximum width of 768px */
-  .bhagvatgeeta,
-  .chapter1,
-  .verse1 {
-      font-size: 6vw;
-  }
+    a:hover {
+      background: rgb(220 53 69 / 85%);
+    }
 
-  .slok1 {
-      font-size: 3vw;
-  }
+    a:focus {
+      outline: 3px solid rgb(220 53 69 / 50%);
+    }
 
-  a {
-      font-size: 3vw;
-      padding: 2vw 4vw;
-  }
+    .button {
+      margin-left: 40%;
+    }
 
-  .button {
-      margin-left: auto;
-      margin-right: auto;
-  }
-}
+    /* Media Queries for Responsive Design */
+    @media screen and (max-width: 768px) {
+      /* Adjust styles for screens with a maximum width of 768px */
+      .bhagvatgeeta,
+      .chapter1,
+      .verse1 {
+          font-size: 6vw;
+      }
 
-@media screen and (max-width: 480px) {
-  /* Adjust styles for screens with a maximum width of 480px */
-  .bhagvatgeeta,
-  .chapter1,
-  .verse1 {
-      font-size: 8vw;
-  }
+      .slok1 {
+          font-size: 3vw;
+      }
 
-  .slok1 {
-      font-size: 4vw;
-  }
+      a {
+          font-size: 3vw;
+          padding: 2vw 4vw;
+      }
 
-  a {
-      font-size: 4vw;
-      padding: 3vw 6vw;
-  }
-}
+      .button {
+          margin-left: auto;
+          margin-right: auto;
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+      /* Adjust styles for screens with a maximum width of 480px */
+      .bhagvatgeeta,
+      .chapter1,
+      .verse1 {
+          font-size: 8vw;
+      }
+
+      .slok1 {
+          font-size: 4vw;
+      }
+
+      a {
+          font-size: 4vw;
+          padding: 3vw 6vw;
+      }
+    }
